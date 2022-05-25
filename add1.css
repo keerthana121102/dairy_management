@@ -1,0 +1,113 @@
+body{
+	background-color:white;
+	color:brown;
+	font:normal 16px Arial,Helvetica,sans-serif; 
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+
+}
+
+#main-header{
+	padding:25px;
+	background-color:#E32BB2;
+	color:white;
+	text-align:center;
+	font-size:22px;
+}
+
+.button{
+	background-color:#E32BB2;
+	color:white;
+	padding:10px 20px;
+	border:none;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration: none;
+}
+.button a{
+	text-decoration: none;
+}
+.button:hover{
+	background-color:silver;
+	color:black;
+}
+
+#navbar{
+	padding-left:30px;
+	background-color:purple;
+	color:white;
+}
+
+#navbar ul{
+	padding:0;
+	list-style:none;
+}
+
+#navbar li{
+	display:inline;
+	justify-content: space-around;
+}
+
+#navbar a{
+	color:white;
+	text-decoration:none;
+	font-size:18px;
+	padding-right:15px;
+}
+
+#navbar a:hover{
+	color:#E32BB2;
+}
+
+
+
+table {
+    display: table;
+    border-collapse: separate;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+	padding:0px;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    border-color: grey;
+    font-variant: normal
+	
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: center;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+	color:white;
+	background-color:purple;
+	
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+	padding:5px;
+	color:black;
+	background-color:white;
+	text-align: center;
+}

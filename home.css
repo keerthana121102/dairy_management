@@ -1,0 +1,50 @@
+body{
+	background-color:white;
+	color: black;
+	font:normal 16px Arial,Helvetica,sans-serif; 
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+
+}
+
+#main-header{
+	padding:15px;
+	background-color: #E32BB2;
+	color:white;
+	text-align:center;
+	font-size:20px;
+}
+
+h1 {
+	padding-top:15px;
+	padding-bottom: 40px;
+    display: block;
+    font-size: 2em;
+    text-align:center;
+    font-weight: bold;
+}
+
+.span{
+    float: left;
+    min-height: 1px;
+    margin-left: 20px;
+	padding-left:20px;
+}
+
+.span .span3 img{
+	padding-bottom: 20px;
+	width: 250px;
+    height: 250px;	
+	justify-content: space-around;
+}
+.span .span3 a{
+	margin-top: 30px;
+	text-decoration: none;
+	color:  #E32BB2;
+}

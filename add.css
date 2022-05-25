@@ -1,0 +1,80 @@
+body{
+	background-color:white;
+	color:brown;
+	font:normal 16px Arial,Helvetica,sans-serif; 
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+
+}
+
+#main-header{
+	padding:25px;
+	background-color:#E32BB2;
+	color:white;
+	text-align:center;
+	font-size:22px;
+}
+.button{
+	background-color:purple;
+	color:white;
+	padding:10px 20px;
+	border:none;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration: none;
+}
+.button a{
+	text-decoration: none;
+}
+.button:hover{
+	background-color:silver;
+	color:black;
+}
+
+.box-1{
+	
+	margin-top:0px;
+	border:5px brown; 
+	background-color:cyan;
+	padding:0px;
+	padding-top:0px;
+	margin-left:420px;
+	margin-right:420px;
+	text-align:center;
+}
+
+.box-1 h1{
+	text-align:center;
+	font-size:40px;
+}
+
+.my-form{
+	padding:30px;
+	text-align:center;
+}
+/*
+.my-form label{
+	display:block;
+}
+*/
+.my-forms .form-group{
+	padding-top: 10px;
+	padding-bottom:18px;
+}
+
+
+.my-form input[type="text"], .my-form textarea{
+	padding:8px;
+	
+}
+
+.my-form input[type="date"] {
+	padding:8px;
+	}
